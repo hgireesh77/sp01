@@ -11,5 +11,5 @@
       gather_subset: all
 
   - name: Display the config
-    debug:
-      msg: {{ansible_net_hostname}}
+    with_items:
+       - "{{ansible_net_hostname}}"
