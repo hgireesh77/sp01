@@ -9,12 +9,3 @@
   - name: Get config of IOS devices
     ios_facts:
       gather_subset: all
-
-#  - name: Display the config
-#    ios_facts:
-#       - msg: "{{ansible_net_hostname}}"
-
-   - name: Get config of IOS devices
-     ios_facts:
-       gather_subset: all
----
