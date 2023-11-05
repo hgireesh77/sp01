@@ -10,6 +10,6 @@
     ios_facts:
       gather_subset: all
 
-  - name: Display the config
-    with_items:
-       - msg: "{{ansible_net_hostname}}"
+#  - name: Display the config
+#    with_items:
+#       - msg: "{{ansible_net_hostname}}"
